@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef1fa;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #263b80;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+a {
+    display: block;
+    background: white;
+    color: #344b9b;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    margin: 18px auto;
+    max-width: 500px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-left: 5px solid #7654b8;
+}
+
+a:hover {
+    background: #344b9b;
+    color: white;
+}
+
+/* index1styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f3fa;
+    color: #252b45;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1 {
+    color: #263b80;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #263b80;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Main content */
+body > div,
+.container,
+.card {
+    background: white;
+    max-width: 750px;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 13px;
+    margin: 12px 0;
+    border: 1px solid #cbd1e5;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #465cc5;
+}
+
+/* Buttons */
+button {
+    background: #344b9b;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+button:hover {
+    background: #6b4bb5;
+}
+
+/* Results */
+p {
+    margin: 12px 0;
+}
+
+#message {
+    color: #344b9b;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 25px;
+    margin: 15px 0;
+}
+
+li {
+    padding: 5px;
+}
+
+/* Mobile view */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    body > div,
+    .container,
+    .card {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
